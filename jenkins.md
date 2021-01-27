@@ -1,7 +1,7 @@
 ##I, Tổng quan về Jenkins
 ###1, Jenkins là gì?
 - Jenkins là một opensource dùng để thực hiện chức năng tích hợp liên tục (gọi là CI – Continuous Integration) và xây dựng các tác vụ tự động hóa.
-![]()
+![](1.png)
 - Nó tích hợp các source code của các members trong team lại nhanh chóng một cách liên tục, theo dõi sự thực thi và trạng thái thông qua các bước kiểm thử (Integration test, units test). Tất nhiên là nhằm giúp sản phẩm chạy ổn định
 ###2, CI là gì? CD là gì?
 - CI là viết tắt của Continuous Integration
