@@ -4,6 +4,7 @@
 ![](1.png)
 - Nó tích hợp các source code của các members trong team lại nhanh chóng một cách liên tục, theo dõi sự thực thi và trạng thái thông qua các bước kiểm thử (Integration test, units test). Tất nhiên là nhằm giúp sản phẩm chạy ổn định
 ###2, CI là gì? CD là gì?
+![](2.png)
 - CI là viết tắt của Continuous Integration
 Là tích hợp liên tục, nhằm liên tục tích hợp các source code của các thành viên trong team lại một cách nhanh chóng.
 - Chu trình làm việc:
