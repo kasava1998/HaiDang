@@ -1,12 +1,12 @@
-##I, Tổng quan về Jenkins
+## I, Tổng quan về Jenkins
 
-###1, Jenkins là gì?
+### 1, Jenkins là gì?
 - Jenkins là một opensource dùng để thực hiện chức năng tích hợp liên tục (gọi là CI – Continuous Integration) và xây dựng các tác vụ tự động hóa.
 ![](1.png)
 - Nó tích hợp các source code của các members trong team lại nhanh chóng một cách liên tục, theo dõi sự thực thi và trạng thái thông qua các bước kiểm thử (Integration test, units test). Tất nhiên là nhằm giúp sản phẩm chạy ổn định
 
 
-###2, CI là gì? CD là gì?
+### 2, CI là gì? CD là gì?
 ![](2.png)
 - CI là viết tắt của Continuous Integration
 Là tích hợp liên tục, nhằm liên tục tích hợp các source code của các thành viên trong team lại một cách nhanh chóng.
@@ -20,12 +20,12 @@ Là tích hợp liên tục, nhằm liên tục tích hợp các source code c�
 7. Commit code lên repo
 8. Máy chủ CI lắng nghe các thay đổi code từ repository và có thể tự động build/test, sau đó đưa ra các thông báo (pass/failure) cho các thành viên.
 
-##II, Cài đặt Jenkins trên CentOS-7
-###1, Cập nhật hệ thống CentOS 7 của bạn.
+## II, Cài đặt Jenkins trên CentOS-7
+### 1, Cập nhật hệ thống CentOS 7 của bạn.
 >sudo yum install epel-release
 sudo yum update
 
-###2, Cài đặt Java.
+### 2, Cài đặt Java.
 - Trước khi cài đặt Jenkins, bạn cần cài đặt java trong máy của mình. hãy cài đặt phiên bản mới nhất của OpenJDK Runtime Environment 1.8.0
 
 > sudo yum install java-1.8.0-openjdk.x86_64
@@ -37,7 +37,7 @@ sudo yum update
 ![](3.png)
 
 
-###3, Cài đặt Jenkins.
+### 3, Cài đặt Jenkins.
 - Bắt đầu bằng cách nhập khóa kho lưu trữ từ Jenkins.
 > rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 
