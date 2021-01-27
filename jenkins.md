@@ -34,6 +34,8 @@ sudo yum update
 
 > java -version
 
+![](3.png)
+
 
 ###3, Cài đặt Jenkins.
 - Bắt đầu bằng cách nhập khóa kho lưu trữ từ Jenkins.
@@ -82,10 +84,14 @@ netstat -v
 > sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 - Bạn sẽ thấy mật khẩu gồm cả chữ và số dài 32 ký tự như hình dưới đây:
 
-> 95b41ce7dba641898440df658fee6b8e
+![](4.png)
 
 - Sao chép mật khẩu và dán nó vào các cửa sổ trên và nhấp vào tiếp tục. Trong cửa sổ tiếp theo Chọn tùy chọn: Cài đặt các plugin được đề xuất
+![](5.png)
 
-- quá trình cài đặt plugin bắt buộc đang diễn ra. Sau khi cài đặt xong plugin. Nó sẽ yêu cầu tạo một người dùng Admin.
+- Quá trình cài đặt plugin bắt buộc đang diễn ra. Sau khi cài đặt xong plugin. Nó sẽ yêu cầu tạo một người dùng Admin.
+![](6.png)
+
 
 <b> Jenkins đã sẵn sàng, thiết lập công việc tự động hóa của bạn với Jenkins. </b>
+![](7.png)
