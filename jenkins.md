@@ -91,7 +91,8 @@ netstat -v
 
 - Quá trình cài đặt plugin bắt buộc đang diễn ra. Sau khi cài đặt xong plugin. Nó sẽ yêu cầu tạo một người dùng Admin.
 ![](6.png)
-
+![](7.png)
 
 <b> Jenkins đã sẵn sàng, thiết lập công việc tự động hóa của bạn với Jenkins. </b>
-![](7.png)
+
+![](8.png)
